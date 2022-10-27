@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 10px;
+    list-style: none;
+    font-family: 'Titillium Web', sans-serif;
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #2D2D34;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10rem;
+    border: .1rem solid #000;
+    background: #B97375;
+    overflow-y: hidden;
+}
+
+    header div h2{
+        font-size: 3rem;
+        letter-spacing: .1rem;
+        color: #fff;
+    }
+
+    header div img{
+        height: 10rem;
+        width: 10rem;
+        object-fit: cover;
+    }
+
+.section_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80rem;
+}
+
+    .descripction{
+        position: absolute;
+        text-align: center;
+        left: 25rem;
+        top: 35rem;
+        user-select: none;
+        color: #fff;
+    }
+
+        .descripction h1{
+            font-size: 3rem;
+        }
+
+        .descripction p{
+            font-size: 2rem;
+            margin: 1rem;
+        }
+
+        .descripction p span{
+            font-size: 2rem;
+            color: rgb(255, 0, 0);
+        }
+
+        .descripction button{
+            display: none;
+            position: relative;
+            left: 22rem;
+            font-size: 2rem;
+            border: .3rem #B97375 solid;
+            border-radius: .5rem;
+            cursor: pointer;
+            padding: .5rem;
+            background: none;
+            color: #fff;
+        }
+
+    .board{
+        position:absolute;
+        width: 30rem;
+        left: 100rem;
+        height: 45rem;
+        border: .1rem solid #B97375;
+        background-color: #000;
+    }
+
+    .enemy{
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background-image: url("inv.png");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .user{
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background-image: url("user.png");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bullet{
+        position: absolute;
+        width: 1rem;
+        height: 2rem;
+        background-color: rgb(255, 0, 0);
+    }
