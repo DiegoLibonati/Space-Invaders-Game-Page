@@ -35,7 +35,7 @@ I made a web page that allows you to play space invaders, to play you must move 
 
 ## Portfolio Link
 
-`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Space%20invaders%20page`
+`https://diegolibonati.github.io/DiegoLibonatiWeb/#/projects?q=Space%20Invaders%20Page`
 
 ## Video
 
